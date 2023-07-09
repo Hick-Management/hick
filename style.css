@@ -1,0 +1,157 @@
+	
+	body {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		font-family: Arial, sans-serif;
+		background: url(./tim01.jpg);
+	}
+	
+	*{
+		font-family: sans-serif;
+		box-sizing: border-box;
+	}
+	
+	form {
+		width: 500px;
+		border: 2spx solid #ccc;
+		padding: 30px;
+		background: #fff;
+		border-radius: 15px;
+		align-items: center; 
+	}
+
+	p {
+		color: rgb(255, 255, 255);
+	}
+	
+	h2 {
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	
+	input {
+		display: block;
+		border: 2px solid #ccc;
+		width: 95%;
+		padding: 10px;
+		margin: 10px auto;
+		border-radius: 5px;
+	}
+	label {
+		color: #888;
+		font-size: 18px;
+		padding: 10px;
+	}
+	
+	button {
+		float: right;
+		background: #555;
+		padding: 10px 15px;
+		color: #fff;
+		border-radius: 5px;
+		margin-right: 10px;
+		border: none;
+	}
+	
+	button:hover{
+		opacity: .7;
+	}
+	.error {
+	   background: #F2DEDE;
+	   color: #A94442;
+	   padding: 10px;
+	   border-radius: 5px;
+	   margin: 20px auto;
+	}
+	
+	.success {
+	   background: #D4EDDA;
+	   color: #eff3f5;
+	   padding: 10px;
+	   width: 95%;
+	   border-radius: 5px;
+	   margin: 20px auto;
+	}
+	
+	h1 {
+		text-align: left;
+		color: #fff;
+	}
+	
+	.ca {
+		font-size: 14px;
+		display: inline-block;
+		padding: 10px;
+		text-decoration: none;
+		color: #444;
+	}
+	.ca:hover {
+		text-decoration: underline;
+	} 
+	
+	header {
+			background-color: #a01a1a;
+			color: #f3e8e8;
+			padding: 5px;
+			font-style: normal;
+			font-family: Arial, Helvetica, sans-serif;
+		  }
+	  
+	  .logo img {
+		width: 100px;
+		height: auto;
+	  }
+	  
+	  nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	  }
+	  
+	  nav ul li {
+		display: inline-block;
+		margin-right: 20px;
+	  }
+	  
+	  nav ul li a {
+		color: #fff;
+		text-decoration: none;
+	  }
+	
+	  .footer {
+		position: relative;
+		width: 100%;
+		background: #3586ff;
+		min-height: 100px;
+		padding: 20px 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	  }
+
+	  footer {
+		background-color: #a01a1a;
+		color: #f3e8e8;
+		padding: 5px;
+		font-style: normal;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	  }
+
+	  h1{
+		padding: 15px;
+	  }
+	  
+	  h2{
+		color: #1411aa;
+		padding: 20px;
+	  }
+		
+	  p strong{
+		color: #0fa372;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: x-large;
+	  }
+	
